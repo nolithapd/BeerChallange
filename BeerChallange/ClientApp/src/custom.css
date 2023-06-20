@@ -1,0 +1,31 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+.spaceBetweenLabels div {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+}
+.dataSpace div {
+    display: block;
+}
+.ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 1px;
+}
+.modalSize {
+    width: 900px !important;
+}
